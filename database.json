@@ -1,0 +1,18 @@
+{
+  "dev": {
+    "driver": "pg",
+    "host": "localhost",
+    "port": 8000,
+    "database": "librarydb",
+    "user": "dev",
+    "password": "1234"
+  },
+  "test": {
+    "driver": "pg",
+    "host": "localhost",
+    "port": 8000,
+    "database": "librarydb_test",
+    "user": "tester",
+    "password": "1234"
+  }
+}
