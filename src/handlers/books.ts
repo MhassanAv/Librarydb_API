@@ -108,7 +108,7 @@ const destroy = async (req: Request, res: Response) => {
 
 const booksRoutes = (app: express.Application) => {
   app.get('/books', index);
-  app.get('/books/:y',authvalidator, search);
+  app.get('/books/:y', authvalidator, search);
   app.put('/books/:id', authvalidator, update);
   app.get('/books/:id', show);
   app.post('/books', authvalidator, create);

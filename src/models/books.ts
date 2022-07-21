@@ -59,7 +59,6 @@ export class bookStore {
     }
   }
 
-
   async create(b: book): Promise<book> {
     try {
       // @ts-ignore
